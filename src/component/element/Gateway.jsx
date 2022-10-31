@@ -1,5 +1,6 @@
 import React from "react";
-import { SiBinance } from "react-icons/si";
+import { SiBinance ,SiPolymerproject ,SiYourtraveldottv} from "react-icons/si";
+import  {GiEvilMoon } from "react-icons/gi"
 
 export default function Gateway() {
   return (
@@ -17,52 +18,65 @@ export default function Gateway() {
           </div>
         </div>
         <div className="row">
-          <div className="col-md-3">
-            <div className="d-flex  mt-5">
+          <div className="col-md-2">
+            <div className="d-flex  mt-4">
               <h5 className="me-2 ">BINANCE</h5>
               <SiBinance className="ms-4" color="yellow" size={30} />
             </div>
 
-            <div className="d-flex mt-5 ">
+            <div className="d-flex mt-5  pt-3">
               <h5 className="me-2">Polygon</h5>
-              <SiBinance className="ms-5" color="yellow" size={30} />
+              <SiPolymerproject className="ms-5" color="purple" size={30} />
             </div>
-            <div className="d-flex  mt-5">
+            <div className="d-flex  mt-5 pt-5">
               <h5 className="me-2">Moonbeam</h5>
-              <SiBinance className="ms-3" color="yellow" size={30} />
+              <GiEvilMoon className="ms-3" color="pink" size={30} />
+            </div>
+            <div className="d-flex  mt-5 pt-3">
+              <h5 className="me-2">Avalanche</h5>
+              <SiYourtraveldottv className="ms-3" color="orange" size={30} />
             </div>
           </div>
-          <div className="col-md-3 mt-5">
-            <img className="w-100" src="/assets/octa.png" alt="" />
+          <div className="col-md-1 leg1"></div>
+          <div className="col-md-3 pe-5 mt-5 py-5">
+
+            <img className=" " src="/assets/octa.png" alt="" style={{width:"300px"}} />
+          </div>
+          <div className="col-md-1 leg2">
+
+
           </div>
 
-          <div className="col-md-3 mt-5 text-decoration-none">
+          <div className="col-md-2 mt-5 text-decoration-none">
             <ul>
-              <li className="link py-2 mt-2 border-start px-3  border-3">
-                PancakeSwap Vaults
+              <li className="link py-2  border-start px-3  border-3">
+                PancakeSwap
               </li>
-              <li className="link py-2 mt-4 border-start px-3  border-3">
-                QuickSwap Vaults
+              <li className="link py-2 mt-5 border-start px-3  border-3">
+                QuickSwap 
               </li>
-              <li className="link py-2 mt-4 border-start px-3  border-3">
-                SolarBeam Vaults
+              <li className="link py-2 mt-5 border-start px-3  border-3">
+                SolarBeam 
               </li>
-              <li className="link py-2 mt-4 border-start px-3  border-3">
-                Trader Joe Vaults
+              <li className="link py-2 mt-5 border-start px-3  border-3">
+                Trader Joe 
               </li>
             </ul>
           </div>
+          <div className="col-md-1 leg3">
 
-          <div className="col-md-3 mt-5 text-decoration-none">
+          </div>
+
+          <div className="col-md-2 mt-4 pt-1 text-decoration-none">
             <ul>
-              <li className=" link py-2 mt-3 border-start px-3  border-3">
-                PancakeSwap Vaults
+              <li className=" link py-2 mt-5 border-start px-3  border-3">
+                PancakeSwap 
               </li>
               <li className="link py-2 mt-5 border-start px-3  border-3">
-                QuickSwap Vaults
+                QuickSwap
               </li>
               <li className="link py-2 mt-5 border-start px-3  border-3">
-                SolarBeam Vaults
+                SolarBeam
               </li>
             </ul>
           </div>

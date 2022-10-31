@@ -3,7 +3,8 @@ import React from 'react'
 export default function Hero() {
   return (
     <div className='container-fluid hero mt-5  text-white' >
-<div className="container mt-5">
+      <img  className=''  src="assets/bg.png" alt="" style={{position:"absolute ",right:"0px",top:"-180px",width:"70%"}} />
+<div className="container mt-5 " style={{position:"relative"}}>
   
   <div className="row">
     <div className="col-md-6 pt-3">
@@ -22,8 +23,8 @@ export default function Hero() {
 
 
     </div>
-    <div className="col-md-6 mt-5">
-<video src=""></video>
+    <div className="col-md-6" id='col6'>
+    <iframe className='mt-5 w-100 h-75'  src="https://www.youtube.com/embed/ouXd5gOMMJw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     </div>
   </div>

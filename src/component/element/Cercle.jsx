@@ -1,4 +1,25 @@
 import React from 'react'
+import { Chart } from "react-google-charts";
+
+export const data = [
+  ["Task", "Hours per Day"],
+  ["Private Sale", 11],
+  ["Initial liqidity", 2],
+  ["Protocol reward", 2],
+  ["Pre Sale  TV", 2],
+  ["team and Advisor", 7],
+  ["Initial liqidity", 2],
+  ["Protocol reward", 2],
+  ["Pre Sale  TV", 2],
+  ["team and Advisor", 7], // CSS-style declaration
+];
+
+export const options = {
+  title: "",
+  pieHole: 0.4,
+  is3D: false,
+};
+
 
 export default function Cercle() {
   return (
@@ -7,33 +28,21 @@ export default function Cercle() {
 
         <div className="row mt-5">
 
-            <div className="col-md-3">
+            <div className="col-md-6">
 
-                <img className='w-100' src="/assets/cor.png" alt="" />
-            </div>
-            <div className="col-md-3 text-white mt-5  ">
-<ul>
-    <li>
-    Private Sale
-    </li>
-    <li>
-    Initial Liquidity (will be lock)
-    </li>
-    <li>
-        Protocol Mining Reward
-    </li>
-    <li>
-        Presale
-    </li>
-    <li>
-            team and Advisor
-    </li>
-    <li>
-        Airdrop
-    </li>
-</ul>
+            <Chart className=''
+      chartType="PieChart"
+      width="100%"
+      height="400px"
+      data={data}
+      options={options}
+    />
+
+                {/* <img className='w-100 mt-5' src="/assets/btncer.png" alt="" /> */}
+           
 
             </div>
+            
             <div className="col-md-6">
                 <img className='w-100' src="/assets/tab.png" alt="" />
             </div>

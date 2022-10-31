@@ -4,7 +4,9 @@ import Cercle from '../component/element/Cercle'
 import Gateway from '../component/element/Gateway'
 import Hero from '../component/element/Hero'
 import Logos from '../component/element/Logos'
+import Roadmap from '../component/element/Roadmap'
 import Faqs from '../component/utils/Faqs'
+
 
 export default function 
 () {
@@ -16,6 +18,7 @@ export default function
    <Gateway/>
    <Cercle/>
    <Cards/>
+  <Roadmap/>
    <Faqs/>
    </>
   )
